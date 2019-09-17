@@ -2,44 +2,52 @@
 
 <link href="/Users/trpriebe/the_odin_project/google_homepage/index.css" type="text/css" rel="stylesheet">
 
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
 <html>
-  <head>
-      <title>Google Homepage</title>
-  </head>
-  <body>
-      <nav>
-          <ul>
-              <li>About</li>
-              <li>Store</li>
-          </ul>
-          <ul>
-              <li>Gmail</li>
-              <li>Images</li>
-              <li>Google Apps</li>
-              <li>Google Account</li>
-          </ul>
-      </nav>
-      <img href="/Users/trpriebe/the_odin_project/google_homepage/googlelogo_color_272x92dp.png" alt="Google default logo">
-      <form>
-          <label for="searchbar">
-              <input type="text" id="searchbar" name="search">
-          </label>
-          <br>
-          <button type="submit">Google Search</button>
-          <button type="submit">I'm Feeling Lucky</button>
-      </form>
-      <p>How one woman is using machine learning to track asteroids: <a href="#" alt="search on link">Search On</a></p>
-      <footer>
-          <ul>
-              <li>Advertising</li>
-              <li>Business</li>
-              <li>How Search Works</li>
-          </ul>
-          <ul>
-              <li>Privacy</li>
-              <li>Terms</li>
-              <li>Settings</li>
-          </ul>
-      </footer>
-  </body>
+    <head>
+        <title>Google homepage recreation</title>
+    </head>
+    <body>
+        <nav>
+            <ul id="nav_left">
+                <li><a href="#" id="about">About</a></li>
+                <li><a href="#" id="store">Store</a></li>
+            </ul>
+            <ul id="nav_right">
+                <li><a href="#" id="gmail">Gmail</a></li>
+                <li><a href="#" id="images">Images</a></li>
+                <li><a href="#" id="plus_tyler">+Tyler</a></li>
+            </ul>
+        </nav>
+        <div id="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        </div>
+        <div>
+            <form id="search_form">
+                <label for="searchbar">
+                    <input type="text" id="searchbar" placeholder="Search Google">
+                </label>
+                <div id="search_buttons">
+                    <button type="submit" id="google_search" value="Google Search">Google Search</button>
+                    <button type="submit" id="feeling_lucky" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
+                </div>
+            </form>
+        </div>
+        <div>
+            <p>How one 27 year old is learing to code by himself: <a href="#" id="p_link">Search On</a></p>
+        </div>
+        <footer>
+            <ul id="footer_left">
+                <li><a href="#" id="advertising">Advertising</a></li>
+                <li><a href="#" id="business">Business</a></li>
+                <li><a href="#" id="how_search_works">How Search Works</a></li>
+            </ul>
+            <ul id="footer_right"> 
+                <li><a href="#" id="privacy">Privacy</a></li>
+                <li><a href="#" id="terms">Terms</a></li>                    
+                <li><a href="#" id="settings">Settings</a></li>
+            </ul>
+        </footer>
+    </body>
 </html>
