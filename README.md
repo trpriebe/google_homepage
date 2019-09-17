@@ -1,4 +1,4 @@
-This is a (or at lead an attempt) at visually recreating the Google Homepage.
+This is a (or at least an attempt at a) visial recreation of the Google Homepage.
 
 This was done as a learning project during my time completing The Odin Project.
 
