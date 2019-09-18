@@ -2,8 +2,6 @@
 
 <link href="/Users/trpriebe/the_odin_project/google_homepage/index.css" type="text/css" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-
 <html>
     <head>
         <title>Google homepage recreation</title>
@@ -17,25 +15,34 @@
             <ul id="nav_right">
                 <li><a href="#" id="gmail">Gmail</a></li>
                 <li><a href="#" id="images">Images</a></li>
-                <li><a href="#" id="plus_tyler">+Tyler</a></li>
+                <li>
+                    <a href="#" id="sign_in">
+                        <button type="submit" id="sign_in_button">Sign In</button>
+                    </a>
+                </li>
             </ul>
         </nav>
-        <div id="logo">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-        </div>
-        <div>
-            <form id="search_form">
-                <label for="searchbar">
-                    <input type="text" id="searchbar" placeholder="Search Google">
-                </label>
-                <div id="search_buttons">
-                    <button type="submit" id="google_search" value="Google Search">Google Search</button>
-                    <button type="submit" id="feeling_lucky" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
+        <div id="pc">
+            <div id="content">
+                <div id="logo">
+                    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
                 </div>
-            </form>
-        </div>
-        <div>
-            <p>How one 27 year old is learing to code by himself: <a href="#" id="p_link">Search On</a></p>
+                <div id="searchdiv">
+                    <form id="search_form">
+                        <label for="searchbar">
+                            <input type="text" id="searchbar">
+                        </label>
+                        <br>
+                        <div id="search_buttons">
+                            <button type="submit" id="google_search" value="Google Search" class="better_button">Google Search</button>
+                            <button type="submit" id="feeling_lucky" value="I'm Feeling Lucky" class="better_button">I'm Feeling Lucky</button>
+                        </div>
+                    </form>
+                </div>
+                <div id="search_sentence">
+                    <p>How one cat realized that, yes, he is in-fact that dumb: <a href="#" id="p_link">Search On</a></p>
+                </div>
+            </div>
         </div>
         <footer>
             <ul id="footer_left">
